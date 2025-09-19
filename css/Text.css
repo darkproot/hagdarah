@@ -1,0 +1,23 @@
+.italique {
+    font-style: italic;
+    padding: 2px 8px;
+    color: white;
+    background-color: var(--secondary);
+    border: none;
+}
+.italique:hover {
+    transition: all .2s ease;
+    text-shadow: 2px 2px 0 hsla(0, 0%, 20%, .8);
+}
+
+.gras {
+    font-weight: 200;
+    padding: 2px 8px;
+    color: white;
+    background-color: var(--secondary);
+    border: none;
+}
+.gras:hover {
+    transition: all .2s ease;
+    text-shadow: 2px 2px 0 hsla(0, 0%, 20%, .8);
+}

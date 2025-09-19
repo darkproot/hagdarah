@@ -1,0 +1,15 @@
+.definition {
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.definition-title {
+    font-size: 2em;
+    color: white;
+    background-color: var(--secondary);
+    text-align: center;
+    line-height: 40px;
+}

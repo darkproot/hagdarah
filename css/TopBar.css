@@ -1,0 +1,94 @@
+:root {
+    --base: #f1f5f8;
+    --primary: #0082fb;
+    --secondary: #0064e0;
+    --bg: #1c2b33;
+}
+
+@font-face {
+    font-family: texte;
+    src: url(../assets/WorkSans-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: texte, Arial, Helvetica, sans-serif;
+    border-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--base);
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background-color: var(--base);
+    border-bottom: 2px solid hsl(from var(--bg) 0 0% 80%);
+}
+
+header nav label {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin-right: 100px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--secondary);
+    padding: 4px 8px;
+    position: relative;
+}
+
+header nav ul li a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--secondary);
+    height: 100%;
+    width: 0;
+    z-index: -1;
+    transition: all .3s ease;
+}
+
+header nav ul li:hover a::before, header nav ul li a:active::before { width: 100%; }
+
+header nav ul li:hover a {
+    transition: all .2s ease;
+    color: white;
+}
+
+@media (max-width: 640px) {
+    header nav ul li a {
+        font-size: .8em;
+    }
+    header nav ul {
+        margin-right: 24px;
+    }
+    header nav ul li {
+        margin: 0 8px;
+    }
+}
