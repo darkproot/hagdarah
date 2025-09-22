@@ -44,6 +44,10 @@ header nav label {
     font-size: 2em;
     margin-left: 24px;
 }
+header nav label:hover {
+    transition: all .3s ease;
+    text-shadow: 5px 5px 10px var(--secondary);
+}
 
 header nav ul {
     list-style: none;

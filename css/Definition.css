@@ -13,3 +13,7 @@
     text-align: center;
     line-height: 40px;
 }
+
+@media (max-width: 640px) {
+    .definition-title { border-radius: 12px; }
+}
