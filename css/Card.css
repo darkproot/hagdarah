@@ -20,9 +20,12 @@
     transform: scale(1.05);
     color: white;
     cursor: pointer;
-    background-color: var(--secondary);
+    background: linear-gradient(45deg, var(--secondary), var(--primary));
+    border: none;
     bottom: 2px;
     font-weight: bold;
+    box-shadow: 1px 1px 8px var(--secondary),
+    inset 2px 2px 5px rgba(255, 255, 255, 0.40);
 }
 
 @media (max-width: 640px) {

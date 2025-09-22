@@ -9,7 +9,7 @@
 .definition-title {
     font-size: 2em;
     color: white;
-    background-color: var(--secondary);
+    background: linear-gradient(45deg, var(--secondary), var(--primary));
     text-align: center;
     line-height: 40px;
 }
