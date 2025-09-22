@@ -91,4 +91,7 @@ header nav ul li:hover a {
     header nav ul li {
         margin: 0 8px;
     }
+    header nav label {
+        font-size: 1em;
+    }
 }
