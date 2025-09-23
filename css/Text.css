@@ -32,7 +32,7 @@
 
 .equation {
     border: 2px dashed var(--secondary);
-    padding: 8px;
+    padding: 8px 12px;
     color: var(--secondary);
     margin: 0 24px;
 }
