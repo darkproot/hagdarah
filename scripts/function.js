@@ -1,11 +1,15 @@
 function generate_definition(data) {
     let result = ''
     for (const element of data) {
-        result += `
+        if (!element.isEquation) {
+            result += `
             <div class="definition">
                 <p class="definition-title">${element.name}</p>
                 <p>${element.definition}</p>
             </div>`
+        } else {
+            result += `<p class='equation'>${element.equation}</p>`
+        }
     }
     return result
 }

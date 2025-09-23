@@ -34,4 +34,10 @@
     border: 2px dashed var(--secondary);
     padding: 8px;
     color: var(--secondary);
+    margin: 0 24px;
+}
+.equation:hover {
+    transition: all .2s ease;
+    color: white;
+    background-color: var(--secondary);
 }
