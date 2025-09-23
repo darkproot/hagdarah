@@ -9,3 +9,6 @@ function generate_definition(data) {
     }
     return result
 }
+
+document.getElementById('refresh')
+    .addEventListener('click' , () => window.scrollTo({top: 0, left: 0, behavior: 'smooth'}))

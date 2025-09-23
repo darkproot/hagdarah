@@ -99,3 +99,49 @@ header nav ul li:hover a {
         font-size: 1em;
     }
 }
+
+.refresh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    position: fixed;
+    bottom: 28px;
+    right: 100px;
+    padding: 4px;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.refresh svg {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.refresh svg g {
+    stroke: rgba(109, 109, 111, 0.42);
+}
+.refresh:hover svg g {
+    transition: all .2s ease;
+    stroke: #0082fb65;
+}
+.refresh:hover svg {
+    transition: all .2s ease;
+    transform: scale(1.05);
+}
+.refresh:active svg {
+    transition: all .2s ease;
+    transform: scale(1);
+}
+
+@media (max-width: 640px) {
+    .refresh {
+        bottom: 12px;
+        right: 12px;
+    }
+}
