@@ -12,6 +12,7 @@
     background: linear-gradient(45deg, var(--secondary), var(--primary));
     text-align: center;
     line-height: 40px;
+    padding: 12px 0;
 }
 
 @media (max-width: 640px) {
