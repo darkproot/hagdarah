@@ -5,7 +5,7 @@ const SERIE = [
     },
     {
         isEquation: true,
-        equation: '\[ \int_a^b f(x)\ dx \]'
+        equation: '\\[ \int_a^b f(x)\ dx \\]'
     },
     {
         name: 'Fonction bornee sur un ensemble',
@@ -13,6 +13,6 @@ const SERIE = [
     },
     {
         isEquation: true,
-        equation: '$ \exists\ M\in R\ /\ \ \forall\ x \in E,\ |f(x)| \leq M $'
+        equation: '\\[ \exists\ M\in R\ /\ \ \forall\ x \in E,\ |f(x)| \leq M \\]'
     },
 ] 
