@@ -29,3 +29,9 @@
     background-color: var(--secondary);
     color: white;
 }
+
+.equation {
+    border: 2px dashed var(--secondary);
+    padding: 8px;
+    color: var(--secondary);
+}
