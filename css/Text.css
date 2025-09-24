@@ -34,10 +34,24 @@
     border: 2px dashed var(--secondary);
     padding: 8px 12px;
     color: var(--secondary);
+    border-radius: 12px;
     margin: 0 24px;
+    max-width: 500px;
+    overflow-x: auto;
 }
 .equation:hover {
     transition: all .2s ease;
     color: white;
     background-color: var(--secondary);
+}
+
+.texte {
+    text-align: left;
+    width: 100%;
+}
+
+@media (max-width: 640px) {
+    .equation {
+        max-width: 250px;
+    }
 }
