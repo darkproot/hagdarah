@@ -21,9 +21,9 @@ Pour ajouter un element, il faut ajouter un objet a la liste contenue dans le fi
 Pour ajouter une nouvelle unite d'enseignement, il faut une nouvelle carte en ajoutant au fichier `database/card.info.js`, les informations relative a la matiere.
 |Clef|Fonction|
 |----|--------|
-|id|Pour l'identifaint dans le HTML permettant d'ajouter un `Event Listiner`|
-|name|Pour le nom de la carte|
-|link|Pour le lien dont la racine est le repertoire de `index.html`|
+|`id`|Pour l'identifaint dans le HTML permettant d'ajouter un `Event Listiner`|
+|`name`|Pour le nom de la carte|
+|`link`|Pour le lien dont la racine est le repertoire de `index.html`|
 ```JS
 {
     name: 'Serie et Integrale',
