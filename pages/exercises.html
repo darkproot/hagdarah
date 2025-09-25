@@ -3,12 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/Hagdarah.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/TopBar.css">
-    <link rel="stylesheet" href="css/Container.css">
-    <link rel="stylesheet" href="css/Card.css">
-    <script src="database/card.info.js"></script>
-    <title>Hagdarah</title>
+    <link rel="shortcut icon" href="../assets/Hagdarah.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/exercices.css">
+    <link rel="stylesheet" href="../css/TopBar.css">
+    <title>Exercices</title>
 </head>
 <body>
     <header>
@@ -28,25 +26,27 @@
                         </svg>
                     </div>
                 </li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="./pages/exercises.html">Exercise</a></li>
-                <li><a href="./pages/about.html">About</a></li>
-                <li><a href="./pages/contact.html">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/exercises.html">Exercise</a></li>
+                <li><a href="../pages/about.html">About</a></li>
+                <li><a href="../pages/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="container">
-        <p class="home-title">Unite d'Enseignement disponible</p>
+    <div class="container" id="container">
+        <div class="card">
+            <h2>Template</h2>
 
-        <div class="card-container" id="card-container">
-            <div class="card">
-                <p>Template</p>
+            <!-- Information Exercice -->
+            <div class="min-card">
+                <p>Fiche a telechager</p>
+                <button>Telecharger</button>
             </div>
         </div>
     </div>
-
-    <script src="./scripts/topbar.js"></script>
-    <script src="scripts/card.js"></script>
+    <script src="../scripts/topbar.js"></script>
+    <script src="../database/exercices.info.js"></script>
+    <script src="../scripts/exercices.js"></script>
 </body>
 </html>
