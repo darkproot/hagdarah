@@ -18,3 +18,7 @@
 @media (max-width: 640px) {
     .definition-title { border-radius: 12px; }
 }
+
+@media print {
+    .definition-title { border-radius: 12px; }
+}

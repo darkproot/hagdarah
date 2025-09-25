@@ -34,3 +34,10 @@
         margin: 0 24px;
     }
 }
+
+@media print {
+    .definition-container { 
+        margin: 0 4px; 
+        max-width: 100%;
+    }
+}

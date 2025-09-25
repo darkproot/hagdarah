@@ -214,3 +214,19 @@ header nav ul li:hover a {
         object-fit: contain;
     }
 }
+
+@media print {
+
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    header, .refresh {
+        visibility: hidden;
+    }
+    
+    body {
+        background-color: white;
+    }
+}
