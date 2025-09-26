@@ -1,7 +1,8 @@
 const generate_min_card = (element) => {
     return `<div class="min-card">
+                <div class="card-side-bar"></div>
                 <p>${element.title}</p>
-                <button onclick="${download(element.title)}">Telecharger</button>
+                <a href="../public/pdf/${element.link}" download="${element.title + '.pdf'}">Telecharger</a>
             </div>`
 }
 
@@ -28,7 +29,7 @@ const generate_card = () => {
 // Ajouter les card
 document.getElementById('container').innerHTML = generate_card()
 
-// Fonction pour telecharger le fichier
+// Fonction pour telecharger le fichier (Inutiliser)
 function download(path, name) {
     const link = document.createElement('a')
     link.href = path

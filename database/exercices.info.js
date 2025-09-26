@@ -1,27 +1,36 @@
 const EXERCICES = [
     {
-        title: 'Probabilite',
+        title: 'Electrocinetique',
         links: [
             {
-                title: 'Td1 de probabilite',
-                link: '../public/pdf/virus.vbs'
+                title: 'Cours d\'electrocinetique',
+                link: 'cours-electrocinetique.pdf'
             },
             {
-                title: 'Td2 de probabilite',
-                link: '../public/pdf/virus.vbs'
+                title: 'Precis d\'electrocinetique',
+                link: 'precis electrocinetique.pdf'
             }
         ]
     },
     {
-        title: 'Mecanique',
+        title: 'Mecanique 2',
         links: [
             {
-                title: 'Fiche de TD',
-                link: '../public/pdf/virus.vbs'
+                title: 'Cours Mecanique du solide',
+                link: 'MecDesSysSolIndef_cours.pdf'
             },
             {
-                title: 'CC 2025-2026',
-                link: '../public/pdf/virus.vbs'
+                title: 'Exercices Mecanique du solide',
+                link: 'mécanique du solide-exercice .pdf'
+            }
+        ]
+    },
+    {
+        title: 'Autres',
+        links: [
+            {
+                title: 'Precis physique MP',
+                link: 'precis-physique-mp.pdf'
             }
         ]
     },

@@ -31,3 +31,23 @@ Pour ajouter une nouvelle unite d'enseignement, il faut une nouvelle carte en aj
     id: 'serie'
 }
 ```
+
+## Ajouter un fichier pour le telechargement
+Pour ajouter un fichier afin de le mettre a la disposition pour le telechargement, il faut le placer dans le repertoire `/public/pdf/`. Ensuite ajouter dans le ficher `/database/exercices.info.js`, les informations du fichier comme suit:
+
+|Clef|Fonctions|
+|----|---------|
+|`title`|Titre du secteur ou appartient le fichier|
+|`links`|Liste des fichiers d'un meme domaine|
+
+```JS
+{
+    title: 'Domaine',
+    links: [
+        {
+            title: 'Nom du fichier',
+            link: 'Nom_complet.pdf'
+        }
+    ]
+}
+```
