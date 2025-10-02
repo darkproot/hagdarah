@@ -1,4 +1,4 @@
 for (const element of CONTACT) {
     document.getElementById(element.id)
-        .addEventListener('click', () => window.location = element.link)
+        .addEventListener('click', () => window.open(element.link, '_blank'))
 }

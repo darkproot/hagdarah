@@ -13,7 +13,7 @@ const CONTACT = [
     },
     {
         id: 'email',
-        link: 'woumojohnny@gmail.com'
+        link: 'mailto:woumojohnny@gmail.com?subjet=Renseignement'
     },
     {
         id: 'telegram',
