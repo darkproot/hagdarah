@@ -93,6 +93,10 @@ const PROBABILITE = [
     },
     {
         type: 'text',
-        value: 'L\'<span class="gras">evenement cartain</span>note <span class="italique">&Omega;</span> est l\'evenement'
+        value: 'L\'<span class="gras">evenement cartain</span>note <span class="italique">&Omega;</span> est l\'evenement qui est <span class="italique">toujours realise</span> quelque soit l\'issue de l\'epreuve.'
+    },
+    {
+        type: 'text',
+        value: 'L\'<span class="gras">evenement contraire ou complementaire</span> d\'un evenement <span class="italique">A</span>, note <span class="italique">C_a^a ou a bar</span> est l\'evenement qui est realiser si et seulement si <span class="italique"> A ne l\'ai pas</span>'
     },
 ]
