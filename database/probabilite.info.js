@@ -75,4 +75,24 @@ const PROBABILITE = [
         type: 'equation',
         value: '\\[ S_p^n = n^p - \\sum_{i=1}^{n-1} C_n^i S_p^{n-1} \\]'
     },
+    {
+        name: 'Probabilite - Definitions',
+        definition: 'La <span class="gras">probabilite</span> designe le degre <span class="italique">vraissemblance</span>, la chance qu\'a un evenement de se produire.'
+    },
+    {
+        type: 'text',
+        value: 'Une <span class="gras">experience</span> ou une <span class="italique">epreuve</span> est dite <span class="italique">aleatoire</span>, si on ne peut pas prevoir son resultat et si repete dans des conditions identiques, elle peut donner des resultats differents. Le <span class="gras">resultat d\'une epreuve</span> notee <span class="italique">&omega;</span> est une eventualite ou un evenement elementaire. L\'<span class="gras">ensemble des evenements elementaire</span> pour une experience aleatoire donnee constitue l\'espace fondamental appele <span class="italique">univers</span> et est notee <span class="italique">&Omega;</span>.'
+    },
+    {
+        type: 'text',
+        value: 'Un <span class="gras">evenement quelconque</span> est un ensemble d\'evenement elementaire et constitue une partie de l\'univers dont on peut dire a la fin s\'il est realise ou non.'
+    },
+    {
+        name: 'Probabilite - Evenement remarquables',
+        definition: 'L\'<span class="gras">evenement impossible</span> note <span class="italique">&empty; ou { }</span>, est l\'evenement <span class="italique">qui ne peut etre realise</span> quelque soit la situation de l\'epreuve.'
+    },
+    {
+        type: 'text',
+        value: 'L\'<span class="gras">evenement cartain</span>note <span class="italique">&Omega;</span> est l\'evenement'
+    },
 ]
