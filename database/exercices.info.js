@@ -32,6 +32,11 @@ const EXERCICES = [
                 link: 'TD-Torseurs.pdf',
                 lenght: '888 Ko'
             },
+            {
+                title: 'Controle continu Mécanique 2 (2020-2021)',
+                link: 'CC Mécanique.pdf',
+                lenght: '1.96 Mo'
+            },
         ]
     },
     {
@@ -41,7 +46,12 @@ const EXERCICES = [
                 title: 'TD dénombrement',
                 link: 'TD de dénombrement.pdf',
                 lenght: '3.73 Mo'
-            }
+            },
+            {
+                title: 'Exercices corrigés Probabilité',
+                link: 'exercices_probas_corriges.pdf',
+                lenght: '405 Ko'
+            },
         ]
     },
     {
