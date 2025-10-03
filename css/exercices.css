@@ -62,7 +62,7 @@
 .min-card {
     position: relative;
     overflow: hidden;
-    border-radius: 12px;
+    border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.50);
     width: 100%;
     display: flex;
@@ -71,7 +71,10 @@
     height: 70px;
     box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.129);
     min-width: 400px;
+    padding: 12px 0;
 }
+
+.file-lenght { color: var(--secondary); }
 
 .min-card p { margin-left: 24px; }
 .min-card a { 

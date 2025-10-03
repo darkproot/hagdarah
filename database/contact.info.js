@@ -9,7 +9,7 @@ const CONTACT = [
     },
     {
         id: 'facebook',
-        link: 'https://facebook.com/johnny%20woumo'
+        link: 'https://www.facebook.com/johnny.woumo'
     },
     {
         id: 'email',

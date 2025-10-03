@@ -1,7 +1,7 @@
 const generate_min_card = (element) => {
     return `<div class="min-card">
                 <div class="card-side-bar"></div>
-                <p>${element.title}</p>
+                <p>${element.title} <span class="file-lenght">(${element.lenght})</span></p>
                 <a href="../public/pdf/${element.link}" download="${element.title + '.pdf'}">Telecharger</a>
             </div>`
 }

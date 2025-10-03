@@ -39,6 +39,7 @@ Pour ajouter un fichier afin de le mettre a la disposition pour le telechargemen
 |----|---------|
 |`title`|Titre du secteur ou appartient le fichier|
 |`links`|Liste des fichiers d'un meme domaine|
+|`lenght`|Taille du fichier|
 
 ```JS
 {
@@ -46,7 +47,8 @@ Pour ajouter un fichier afin de le mettre a la disposition pour le telechargemen
     links: [
         {
             title: 'Nom du fichier',
-            link: 'Nom_complet.pdf'
+            link: 'Nom_complet.pdf',
+            lenght: '3.46 Mo'
         }
     ]
 }
